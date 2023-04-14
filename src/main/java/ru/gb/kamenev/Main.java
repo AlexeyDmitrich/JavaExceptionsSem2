@@ -18,6 +18,10 @@ public class Main {
         System.out.println(res);
     }
 
+    /**
+     * В этом методе ловятся исключения, бросаемые низкоуровневым.
+     * @return метод возвращает float значение вводимое в консоли
+     */
     public static float task1() {
         float usersNumber = 0;
             try {
@@ -29,6 +33,10 @@ public class Main {
             }
     }
 
+    /**
+     * Метод принимает float значение от пользователя из консоли, при неверном вводе - выбрасывает исключение.
+     * @return если всё прошло хорошо - вернёт float значение
+     */
     public static float usersFloat(){
         float res;
         System.out.println("Введите число:");
